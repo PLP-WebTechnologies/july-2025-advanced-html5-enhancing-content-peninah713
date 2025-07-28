@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A web page showcasing advanced HTML5 content and a structured form with built-in validation.">
+  <title>Enhanced HTML5 Content and Form</title>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to My Enhanced HTML5 Page</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Organized Content</h2>
+
+      <h3>Unordered List of Web Tools</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+      </ul>
+
+      <h3>Ordered Steps to Publish a Website</h3>
+      <ol>
+        <li>Write HTML and CSS</li>
+        <li>Test in the browser</li>
+        <li>Deploy using GitHub Pages or Netlify</li>
+      </ol>
+
+      <h3>Web Technologies Table</h3>
+      <table border="1">
+        <caption>Popular Web Technologies</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Markup</td>
+            <td>Structure content</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Stylesheet</td>
+            <td>Style content</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Scripting</td>
+            <td>Add interactivity</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Embedded Media</h3>
+      <figure>
+        <img src="placeholder.jpg" alt="Screenshot of a code editor" width="300">
+        <figcaption>A screenshot of HTML code in a code editor</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>User Registration Form</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Jane Doe" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required><br><br>
+
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" minlength="5" maxlength="15" required><br><br>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" pattern=".{6,}" title="Minimum 6 characters" required><br><br>
+
+          <label>Gender:</label>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br><br>
+
+          <label for="subscribe">Subscribe to newsletter:</label>
+          <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+        </fieldset>
+
+        <input type="submit" value="Register">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 WebTech Assignment. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
